@@ -1,4 +1,7 @@
 require_relative "../../lib/airplane"
+require 'rspec'
+
+#practising RSpec testing
 
 RSpec.describe Airplane do
   my_airplane = Airplane.new("cesna", 10, 150, 10)

@@ -1,5 +1,6 @@
 require 'pry'
 
+# Practising RSpec testing
 class Airplane
   attr_accessor :type, :wing_load, :horsepower, :fuel, :engine
   def initialize (type, wing_load, horsepower, fuel)
